@@ -1,8 +1,52 @@
+<div class="top">
+  <div class="header">
+      <div class="header-text">
+          <button class="headerbtn" onclick="openHome()">
+              GSF LLC
+          </button>
+      </div>
+  </div>
+  <div class="menu">
+      <ul class="sections-ul">
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn" routerLink = "/">Home</a>
+          </div>
+        </li>
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn"  routerLink = "/staff">Staff</a>
+          </div>
+        </li>
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn" routerLink = "/patients">Patients</a>
+          </div>
+        </li>
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn" routerLink = "/our-office">Our Office</a>
+          </div>
+        </li>
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn" routerLink = "/services">Services</a>
+          </div>
+        </li>
+        <li class="sections-list">
+          <div class="list-elements">
+            <a class="sectionbtn" routerLink = "/contact-us">Contact-Us</a>
+          </div>
+        </li>
+      </ul>
+  </div>
+</div>
 <ul style="font-size: 40px; color: black;">
-  <li><a routerLink = "/staff">Home</a></li>
+  <li><a routerLink = "/">Home</a></li>
+  <li><a routerLink = "/staff">Staff</a></li>
   <li><a routerLink = "/patients">Patients</a></li>
   <li><a routerLink = "/our-office">Our Office</a></li>
   <li><a routerLink = "/services">Services</a></li>
-  <li><a routerLink = "contact-us/">Contact-Us</a></li>
+  <li><a routerLink = "/contact-us">Contact-Us</a></li>
 </ul>
 <router-outlet></router-outlet>

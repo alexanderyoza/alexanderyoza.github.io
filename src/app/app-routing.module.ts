@@ -7,9 +7,10 @@ import { PatientsComponent } from './patients/patients.component';
 import { OurOfficeComponent } from './our-office/our-office.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'staff', component: StaffComponent },
   { path: 'patients', component: PatientsComponent },
   { path: 'our-office', component: OurOfficeComponent },
