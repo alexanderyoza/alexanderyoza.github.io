@@ -13,6 +13,8 @@ import { HpSolutionsComponent } from './hp-solutions/hp-solutions.component';
 import { HpSolutionComponent } from './hp-solution/hp-solution.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { FooterComponent } from './footer/footer.component';
+import { MemberComponent } from './member/member.component';
+import { DentistComponent } from './dentist/dentist.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './footer/footer.component';
     HpSolutionsComponent,
     HpSolutionComponent,
     ScheduleComponent,
-    FooterComponent
+    FooterComponent,
+    MemberComponent,
+    DentistComponent
   ],
   imports: [
     BrowserModule,
