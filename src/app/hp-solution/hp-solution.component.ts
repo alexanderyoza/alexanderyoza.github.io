@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hp-solution',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HpSolutionComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    this.name = '';
+    this.link = '';
+  }
+
+  @Input() name: string;
+  @Input() link: string;
 
   ngOnInit(): void {
   }

@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { HpSolutionsComponent } from './hp-solutions/hp-solutions.component';
 import { HpSolutionComponent } from './hp-solution/hp-solution.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ScheduleComponent } from './schedule/schedule.component';
     HomeComponent,
     HpSolutionsComponent,
     HpSolutionComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
