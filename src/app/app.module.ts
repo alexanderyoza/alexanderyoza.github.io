@@ -15,6 +15,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { FooterComponent } from './footer/footer.component';
 import { MemberComponent } from './member/member.component';
 import { DentistComponent } from './dentist/dentist.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DentistComponent } from './dentist/dentist.component';
     ScheduleComponent,
     FooterComponent,
     MemberComponent,
-    DentistComponent
+    DentistComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
