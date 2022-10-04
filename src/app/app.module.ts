@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MemberComponent } from './member/member.component';
 import { DentistComponent } from './dentist/dentist.component';
 import { ServiceComponent } from './service/service.component';
+import { TopComponent } from './top/top.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ServiceComponent } from './service/service.component';
     FooterComponent,
     MemberComponent,
     DentistComponent,
-    ServiceComponent
+    ServiceComponent,
+    TopComponent
   ],
   imports: [
     BrowserModule,
