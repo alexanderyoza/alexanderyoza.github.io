@@ -1,41 +1,23 @@
+<div class="behind-top"></div>
 <div class="top">
     <div class="menu">
-        <ul class="sections-ul">
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/">Home</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn"  routerLink = "/staff">Staff</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/patients">Patients</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/our-office">Our Office</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/services">Services</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/contact-us">Contact-Us</a>
-            </div>
-          </li>
-          <li class="sections-list">
-            <div class="list-elements">
-              <a class="sectionbtn" routerLink = "/schedule">Schedule</a>
-            </div>
-          </li>
-        </ul>
+        <div class="menu-elements">
+            <a class="sectionbtn" [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        </div>
+        <div class="menu-elements">
+            <a class="sectionbtn"  routerLink = "/staff" routerLinkActive="active">Staff</a>
+        </div>
+        <div class="menu-elements">
+            <a class="sectionbtn" routerLink = "/our-office" routerLinkActive="active">Our Office</a>
+        </div>
+        <div class="menu-elements">
+            <a class="sectionbtn" routerLink = "/services" routerLinkActive="active">Services</a>
+        </div>
+        <div class="menu-elements">
+            <a class="sectionbtn" routerLink = "/contact-us" routerLinkActive="active">Contact-Us</a>
+        </div>
+        <div class="menu-elements">
+            <a class="sectionbtn" routerLink = "/schedule" routerLinkActive="active">Schedule</a>
+        </div>
     </div>
   </div>
