@@ -1,6 +1,32 @@
-h1{
-    font-size: 20px;
+.solution-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    min-width: 80px;
+    max-width: 290px;
+    height: 15vw;
+    min-height: 100px;
+    max-height: 380px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    margin: 0 20px 20px 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #FCC749;
+    text-align: center;
 }
-div{
-    font-size: 20px;
+
+.solution-header{
+    font-size: calc(12px + 1vw);
+    color: #04445F;
+}
+
+.solution-link-cont{
+    font-size: calc(6px + 1vw);
+}
+
+.solution-link{
+    color: #189AB4;
+    
 }

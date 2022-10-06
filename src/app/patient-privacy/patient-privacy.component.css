@@ -1,0 +1,40 @@
+.privacy-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    max-width: 1800px;
+}
+
+.privacy-cont{
+    margin: 50px;
+    color: #04445F;
+}
+
+.privacy-title{
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    font-size: 40px;
+    text-align: left;
+}
+
+.privacy-text{
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    text-align: left;
+    font-size: 25px;
+}
+
+.text-section{
+    margin: 10px 0;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.section-body{
+    font-size: 25px;
+}

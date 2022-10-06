@@ -1,10 +1,12 @@
-body{
-    margin: 0;
-    padding: 0;
+
+.entire{
     height: fit-content;
     width: 100vw;
-    font-family: Arial;
-    font-size: 0px;
+    max-width: 1800px;
+}
+
+.router-body{
+    min-height: 80vh;
 }
 /*
 

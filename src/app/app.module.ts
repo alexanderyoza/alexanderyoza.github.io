@@ -15,6 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { MemberComponent } from './member/member.component';
 import { DentistComponent } from './dentist/dentist.component';
 import { TopComponent } from './top/top.component';
+import { PatientPrivacyComponent } from './patient-privacy/patient-privacy.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { TopComponent } from './top/top.component';
     FooterComponent,
     MemberComponent,
     DentistComponent,
-    TopComponent
+    TopComponent,
+    PatientPrivacyComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,

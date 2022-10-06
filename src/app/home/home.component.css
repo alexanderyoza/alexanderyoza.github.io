@@ -1,6 +1,7 @@
 .home-top{
-    position: fixed;
+    position: relative;
     width: 100vw;
+    max-width: 1800px;
     padding: 0;
     margin: 0;
     background-color: #D4F2F4;
@@ -11,15 +12,30 @@
     width: 100%;
 }
 
-.home-gap{
-    height: calc(100vw * 9/25);
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    background-color: transparent;
+.home-text{
+    display: flex;
+    justify-content: center;
+}
+
+.home-cont{
+    width: 70vw;
+    max-width: calc(1800px * 0.8);
 }
 
 .home-welcome{
-    font-size: 20px;
+    text-align: left;
+    margin: 40px 40px 0 40px;
+    width: calc(100% - 80px);
+    font-size: 26px;
     background-color: #D4F2F4;
+    color: #04445F;
+}
+
+.home-subwelcome{
+    text-align: left;
+    margin: 5px 40px 60px 40px;
+    width: calc(100% - 80px);
+    font-size: 24px;
+    background-color: #D4F2F4;
+    color: #04445F;
 }

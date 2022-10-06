@@ -9,7 +9,7 @@ export class HpSolutionsComponent implements OnInit {
   names: string[];
   links: string[];
   constructor() { 
-    this.names = new Array<string>('IMPLANTS', 'INVISALIGN®', 'VENEERS', 'CEREC', 'SLEEP APNEA');
+    this.names = new Array<string>('Implants', 'SureSmile®', 'Veneers', 'Cerec', 'Sleep Apnea');
     this.links = new Array<string>('#', '#', '#', '#', '#');
   }
 

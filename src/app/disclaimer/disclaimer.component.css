@@ -1,0 +1,27 @@
+.disclaimer-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    max-width: 1800px;
+}
+
+.disclaimer-cont{
+    margin: 50px;
+    color: #04445F;
+}
+
+.disclaimer-title{
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    font-size: 40px;
+    text-align: left;
+}
+
+.disclaimer-text{
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    text-align: left;
+    font-size: 25px;
+}
