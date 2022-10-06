@@ -1,12 +1,25 @@
-div{
-    font-size: 20px;
-}
-
 .home-top{
+    position: fixed;
     width: 100vw;
+    padding: 0;
+    margin: 0;
     background-color: #D4F2F4;
+    z-index: -1;
 }
 
 .home-image{
     width: 100%;
+}
+
+.home-gap{
+    height: calc(100vw * 9/25);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.home-welcome{
+    font-size: 20px;
+    background-color: #D4F2F4;
 }
