@@ -1,3 +1,75 @@
-div{
-    font-size: 20px;
+a{
+    color: #04445F;
 }
+a:hover{
+    color: #189AB4;
+}
+
+.office{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1800px;
+    margin: 0;
+    padding: 0;
+}
+
+.office-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.office-body{
+    display: inline;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    color: #04445F;
+}
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.title{
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.desc{
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.day-cont{
+    margin-bottom: 20px;
+}
+
+.office-img-cont{
+    margin-top: 100px;
+    width: 40vw;
+    max-width: calc(1800px * 0.4);
+}
+
+.office-img-cont img{
+    width: 100%;
+}
+

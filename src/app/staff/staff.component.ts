@@ -18,7 +18,7 @@ export class StaffComponent implements OnInit {
   constructor() { 
     this.members = new Array<StaffMember>(
       {
-        name: 'BLANCA MACIAS, OFFICE MANAGER', 
+        name: 'Blanca Macias, Office Manager', 
         description: `Blanca is originally from California and moved
         to beautiful Arizona 4 years ago. She has worked in 
         the dental field since 2002 as a front office associate and 
@@ -31,7 +31,7 @@ export class StaffComponent implements OnInit {
         image: '/assets/python.png'
       },
       {
-        name: 'ANGIE, THE GREATEST DENTAL ASSISTANT',
+        name: 'Angie, The Greatest Dental Assistant',
         description: `Angela Espinoza is the GREATEST DENTAL 
         ASSISTANT here at Union Hills Family Dentistry. Angela graduated 
         from Apollo College Dental Assistant program in 2005; she has been an 
@@ -45,15 +45,15 @@ export class StaffComponent implements OnInit {
         image: '/assets/python.png'
       },
       {
-        name: 'KIRSTEN',
+        name: 'Kirsten',
         description: `Originally from Alaska, Kirsten moved to Arizona in July 2010. 
         She graduated from dental hygiene school in Mesa, Arizona and has over 5 years of dental experience. 
         In her spare time, Kirsten likes to check out new restaurants, play frolf, go geocaching, and traveling.`,
-        image: './images/python.png',
+        image: '/assets/python.png',
       },
       {
-        name: 'VANESSA SCHAEFFER',
-        description: `Vanessa Schaeffer is out newest Dental Assistant here at Union Hills Family Dentistry! She 
+        name: 'Vanessa Schaeffer',
+        description: `Vanessa Schaeffer is our newest Dental Assistant here at Union Hills Family Dentistry! She 
         joined us in April of 2014 and has quickly become part of our dental family. Vanessa is a native of Arizona 
         and has hiked all the trails surrounding the greater Phoenix area. Always a busy bee, Vanessa trains for 5Ks 
         and half marathons. Her collection of medals includes RunDisney Tinkerbell and Princess Half Marathons and San 
@@ -63,7 +63,7 @@ export class StaffComponent implements OnInit {
         image: '/assets/python.png'
       },
       {
-        name: 'KATIE, DENTAL HYGIENIST',
+        name: 'Katie, Dental Hygienist',
         description: `Originally from Washington State, Katie moved to the Phoenix area to enjoy warmer weather and to further her 
         hygiene career. As a graduate from Eastern Washington University, she earned a Bachelors of Science in dental hygiene 
         and has over 4 years of experience in the dental field. Outside of work Katie enjoys traveling, staying active, attending 

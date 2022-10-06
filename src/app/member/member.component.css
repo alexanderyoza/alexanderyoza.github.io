@@ -1,3 +1,47 @@
-div{
-    font-size: 20px;
+.member{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    margin: 0;
+    padding: 0;
+}
+
+.member-body{
+    display: inline;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 45vw;
+    max-width: calc(1800px * 0.45);
+    margin-bottom: 30px;
+}
+
+.member-name{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    max-width: calc(1800px * 0.5);
+    margin-bottom: 30px;
+    font-size: min(30px, 12px + 1.5vw);
+}
+
+.member-desc{
+    font-size: min(25px, 10px + 1.5vw);
+    margin-bottom: 30px;
+}
+
+.member-img-cont{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    max-width: calc(1800px * 0.2);
+}
+
+.member-img{
+    width: 100%;
 }
