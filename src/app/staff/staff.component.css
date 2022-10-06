@@ -1,3 +1,17 @@
-div{
-    font-size: 20px;
+.staff-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1800px;
+    height: fit-content;
+    max-width: 1800px;
+}
+
+.staff-cont{
+    margin: 50px;
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    color: #04445F;
+    text-align: left;
 }
