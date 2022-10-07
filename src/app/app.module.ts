@@ -17,6 +17,7 @@ import { DentistComponent } from './dentist/dentist.component';
 import { TopComponent } from './top/top.component';
 import { PatientPrivacyComponent } from './patient-privacy/patient-privacy.component';
 import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { DisclaimerComponent } from './disclaimer/disclaimer.component';
     DentistComponent,
     TopComponent,
     PatientPrivacyComponent,
-    DisclaimerComponent
+    DisclaimerComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

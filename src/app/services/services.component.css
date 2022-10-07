@@ -1,3 +1,46 @@
 div{
     font-size: 20px;
 }
+
+.service-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1800px;
+    margin: 0;
+    padding: 0;
+}
+
+.service-body{
+    width: 80vw;
+    max-width: calc(1800px * 0.8);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.service-intro{
+    font-size: 26px;
+    color: #04445F;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.services{
+    
+}
+
+.init-title{
+    font-size: 26px;
+    color: #04445F;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.init-desc{
+    font-size: 24px;
+    color: #04445F;
+    text-align: left;
+    margin-bottom: 30px;
+}

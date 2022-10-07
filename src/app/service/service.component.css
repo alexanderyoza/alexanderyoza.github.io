@@ -1,0 +1,32 @@
+.serv-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #74E7DA;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #04445F;
+    color: #04445F;
+}
+
+.serv-box:hover{
+    background-color: #ffffff;
+}
+
+
+.serv-name{
+    font-size: 30px;
+    display: block;
+}
+
+.serv-more{
+    display: none;
+}
+
+.serv-learn{
+    display: block;
+    font-size: 20px;
+}
