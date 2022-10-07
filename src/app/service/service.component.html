@@ -2,10 +2,10 @@
     <div class="serv-name">
         {{name}}
     </div>
-    <div class="serv-learn">
+    <div class="serv-learn" [ngStyle]="getLearn()">
         Click to learn more
     </div>
-    <div class="serv-more">
+    <div class="serv-more" [ngStyle]="getInfo()">
         {{desc}}
     </div>
 </div>
