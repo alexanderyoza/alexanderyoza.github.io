@@ -1,4 +1,4 @@
-<div class="serv-box" (click)="toggleDesc()">
+<div class="serv-box" [ngStyle]="getBox()" (click)="toggleDesc()">
     <div class="serv-name">
         {{name}}
     </div>

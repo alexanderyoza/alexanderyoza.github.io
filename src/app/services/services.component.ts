@@ -17,7 +17,17 @@ export class ServicesComponent implements OnInit {
     this.service = new Array<Service>(
     {
       name: "Bonding",
-      desc: "Desc",
+      desc: `An alternative to veneers is a process called bonding, 
+      in which a tooth-colored material that looks like the enamel 
+      of your teeth is molded and shaped, and then hardened and polished.
+       Bonding can be used to improve the color of a tooth, or close unsightly gaps.
+      Bonding is generally not as permanent a process as veneers, and 
+      can be vulnerable to the same kind of staining your natural teeth 
+      are prone to. Bonding can also be more prone to chips and cracks than veneers.
+      Caps are generally preferred to bonding when such a procedure isn’t deemed to
+       be effective in the long run.
+      
+       `,
     }, 
     {
       name: "Cosmetic and Contouring",

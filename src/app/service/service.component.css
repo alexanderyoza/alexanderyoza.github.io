@@ -1,15 +1,14 @@
 .serv-box{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
     background-color: #74E7DA;
     border-radius: 20px;
-    box-shadow: 2px 2px 3px #04445F;
+    box-shadow: 2px 2px 3px #FCC749;
     color: #04445F;
+    transition: 0.5s;
 }
 
 .serv-box:hover{
@@ -18,14 +17,20 @@
 
 
 .serv-name{
-    font-size: 30px;
+    font-size: max(14px, calc(8px + 1vw));
+    text-align: left;
     display: block;
 }
 
 .serv-more{
-    font-size: 20px;
+    font-size: max(12px, calc(6px + 1vw));
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 50%;
 }
 
 .serv-learn{
-    font-size: 20px;
+    font-size: max(12px, calc(6px + 1vw));
+    text-align: right;
 }
