@@ -67,12 +67,12 @@
 
 .input-cont label{
     position: absolute;
-    top: -12px;
+    top: -14px;
     left: 2px;
     margin: 0;
     color: #04445F;
     z-index: 1;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .input-cont .form-control{
@@ -105,12 +105,12 @@
 
 .input-text-cont label{
     position: absolute;
-    top: -15px;
+    top: -18px;
     left: 2px;
     margin: 0;
     color: #04445F;
     z-index: 1;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .input-text-cont .form-control{
