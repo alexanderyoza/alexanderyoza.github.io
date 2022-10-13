@@ -21,3 +21,13 @@
     margin-bottom: 50px;
     color: #04445F;
 }
+
+.team-cont{
+    width: 60vw;
+    max-width: calc(0.6 * 1800px);
+    margin-bottom: 20px;
+}
+
+.team-img{
+    width: 100%;
+}

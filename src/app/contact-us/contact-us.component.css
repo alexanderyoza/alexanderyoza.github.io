@@ -9,7 +9,6 @@
 
 .contact-cont{
     display: flex;
-    width: 60vw;
     max-width: calc(1800px * 0.6);
     justify-content: left;
     text-align: left;
