@@ -6,6 +6,14 @@
         Click to learn more
     </div>
     <div class="serv-more" [ngStyle]="getInfo()">
-        {{desc}}
+        <div *ngFor="let i of info">
+            <div>
+                <b>{{i.title}}</b>
+            </div>
+            <div>
+                {{i.desc}}
+                <br>
+            </div>
+        </div>
     </div>
 </div>

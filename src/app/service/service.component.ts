@@ -14,7 +14,7 @@ export class ServiceComponent implements OnInit {
 
   constructor() { 
     this.name = '';
-    this.desc = '';
+    this.info = [{title: '',desc: ''}];
     this.showDesc = true;
     this.displayBox = {'flex-direction': 'row', 'justify-content': 'space-between'};
   }
@@ -46,7 +46,7 @@ export class ServiceComponent implements OnInit {
   }
 
   @Input() name: string;
-  @Input() desc: string;
+  @Input() info: [{title: string, desc: string}];
 
   ngOnInit(): void {
   }
