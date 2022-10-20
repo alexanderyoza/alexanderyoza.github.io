@@ -18,7 +18,7 @@ export class StaffComponent implements OnInit {
   constructor() { 
     this.members = new Array<StaffMember>(
       {
-        name: 'Blanca Macias, Office Manager', 
+        name: 'Blanca', 
         description: `Blanca is originally from California and moved
         to beautiful Arizona 4 years ago. She has worked in 
         the dental field since 2002 as a front office associate and 
@@ -31,7 +31,7 @@ export class StaffComponent implements OnInit {
         image: '/assets/blanca.jpeg'
       },
       {
-        name: 'Angie, The Greatest Dental Assistant',
+        name: 'Angie',
         description: `Angela Espinoza is the GREATEST DENTAL 
         ASSISTANT here at Union Hills Family Dentistry. Angela graduated 
         from Apollo College Dental Assistant program in 2005; she has been an 
