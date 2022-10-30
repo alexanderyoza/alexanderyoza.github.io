@@ -1,10 +1,17 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+interface Info {
+  title: string;
+  desc: string;
+}
+
+
 @Component({
   selector: 'app-service',
   templateUrl: './service.component.html',
   styleUrls: ['./service.component.css']
 })
+
 export class ServiceComponent implements OnInit {
 
   showDesc = true;
@@ -46,7 +53,7 @@ export class ServiceComponent implements OnInit {
   }
 
   @Input() name: string;
-  @Input() info: [{title: string, desc: string}];
+  @Input() info: Info[];
 
   ngOnInit(): void {
   }

@@ -7,7 +7,7 @@
     padding: 0;
     width: 100vw;
     max-width: 1800px;
-    height: 240px;
+    height: calc(15vh + 40px);
     background-color: #74E7DA;
     z-index: 2;
     box-shadow: 2px 2px 5px #74E7DA;
@@ -25,7 +25,7 @@
     padding: 0;
     width: 100vw;
     max-width: 1800px;
-    height: 200px;
+    height: 15vh;
     background-color: #D4F2F4;
 }
 
@@ -38,7 +38,7 @@
 
 .top-img{
     display: block;
-    height: max(100px, 10vw);
+    height: 80%;
     margin: 10px 0 10px 20px;
 }
 
@@ -54,9 +54,8 @@
 .top-awards{
     display: flex;
     align-items: center;
-    height: 180px;
-    margin: 10px 30px 10px 0;  
-    width: 15vw;
+    height: 60%;
+    margin: 10px 30px 10px 0;
     min-width: 180px;
     max-width: 240px;
 }
@@ -72,7 +71,7 @@
     position: relative;
     width: 100vw;
     max-width: 1800px;
-    height: 240px;
+    height: calc(15vh + 40px);
     background-color: #D4F2F4;
 }
 
@@ -86,6 +85,7 @@
     height: 40px;
     padding: 0;
     margin: 0;
+    background-color: #74E7DA;
     background-color: transparent;
 }
 

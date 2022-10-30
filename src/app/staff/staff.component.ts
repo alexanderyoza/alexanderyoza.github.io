@@ -53,15 +53,24 @@ export class StaffComponent implements OnInit {
       },
       {
         name: 'Desiree',
-        description: `hello world hello world hello world hello world hello world hello world 
-        hello world hello world hello world hello world hello world hello world hello world hello world 
-        hello world hello world hello world hello world hello world hello world hello world hello world `,
+        description: `My name is Desiree. I’ve been in the dental industry for what seems to be my whole life. My mother
+         is a Dental Assistant with over 34 years of experiences so I grew up in dental offices all over the valley 
+         acquiring the knowledge and passion for treating patients. When I’m not seeing patients, I enjoy hiking and 
+         travelling around the world with my son. I also enjoy volunteering for the Autism Speaks Foundation that provides 
+         services for the Autism Community.`,
         image: '/assets/desiree.jpeg'
       },
       {
         name: 'Ann',
-        description: `hello world hello world hello world hello world hello world hello world
-        hello world hello world hello world hello world hello worldhello worldhello worldhello world.`,
+        description: `I am a second generation Arizonian.  Lived here when Phoenix was a small farming community.  
+        I attended Central High School and had a fun time cruising central phoenix.  After high school I attended 
+        Phoenix College and the dental hygiene school.  I graduated in the first class and we had to promote ourselves 
+        to dentists as they were not aware of dental hygiene as a profession.  My first job was in general dentistry
+         although my interests were in Periodontics.  I eventually ended up in Periodontics for 28 years and was certified in 
+         expanded functions. I later switched my direction to general dentistry and Prosthodontics which was a new learning experience.  
+         As the doc I was working for passed away from ALS, I became a new member of Dr. Yoza's Staff.  Always the best for last!  
+         I am semi-retired now and still enjoy my old friends and patients who I adore.   Although athletics were fun for years, 
+         I now enjoy my cabin and fishing in Alaska with my partner in crime Dan.  My 2 kids are grown and have 1 granddaughter and a cat. `,
         image: '/assets/ann.jpeg'
       },
       {

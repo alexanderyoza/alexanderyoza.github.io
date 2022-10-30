@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { StaffComponent } from './staff/staff.component';
 import { OurOfficeComponent } from './our-office/our-office.component';
 import { ServicesComponent } from './services/services.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormsComponent } from './forms/forms.component';
 import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { PatientPrivacyComponent } from './patient-privacy/patient-privacy.component';
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'staff', component: StaffComponent },
   { path: 'our-office', component: OurOfficeComponent },
   { path: 'services', component: ServicesComponent },
-  { path: 'contact-us', component: ContactUsComponent },
+  { path: 'forms', component: FormsComponent },
   { path: 'schedule', component: ScheduleComponent },
   { path: 'patient-privacy', component: PatientPrivacyComponent },
   { path: 'disclaimer', component: DisclaimerComponent },

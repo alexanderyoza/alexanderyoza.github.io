@@ -19,6 +19,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .office-body{
@@ -66,6 +67,7 @@ a:hover{
 .office-img-cont{
     margin-top: 100px;
     width: 40vw;
+    min-width: 300px;
     max-width: calc(1800px * 0.4);
 }
 

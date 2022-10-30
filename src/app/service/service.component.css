@@ -34,3 +34,7 @@
     font-size: max(12px, calc(6px + 1vw));
     text-align: right;
 }
+
+.serv-info{
+    margin-top: 20px;
+}

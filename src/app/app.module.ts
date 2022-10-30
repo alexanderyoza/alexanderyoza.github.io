@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { StaffComponent } from './staff/staff.component';
 import { OurOfficeComponent } from './our-office/our-office.component';
 import { ServicesComponent } from './services/services.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormsComponent } from './forms/forms.component';
 import { HomeComponent } from './home/home.component';
 import { HpSolutionsComponent } from './hp-solutions/hp-solutions.component';
 import { HpSolutionComponent } from './hp-solution/hp-solution.component';
@@ -25,7 +25,7 @@ import { ServiceComponent } from './service/service.component';
     StaffComponent,
     OurOfficeComponent,
     ServicesComponent,
-    ContactUsComponent,
+    FormsComponent,
     HomeComponent,
     HpSolutionsComponent,
     HpSolutionComponent,
